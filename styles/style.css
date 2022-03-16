@@ -17,7 +17,7 @@ a{
 }
 .sidebar{
     width: 319px;
-    height: 1080px;
+    height: 100%;
     background-color: #222222;
 }
 .top-design{
@@ -53,16 +53,14 @@ li{
     line-height: 21px;
     color: white;
 }
-.wrapper{
-    margin-left: -60px;
+.wrapper:hover{
     background-color: #FF2288;
-    width: 259px;
+    width: 219px;
     height: 60px;
     border-radius: 12px;  
     padding-left: 30px;
     padding-top: 10px;
-  
-    
+    margin-left: -60px;
 }
 
 .sidebar-icons{
@@ -169,7 +167,10 @@ h5{
     border-radius: 12px;
     margin-left: 35px;
 }
-h6{
+button{
+    background: none;
+    border: none;
+    padding-left: 30px;
     text-align: center;
     margin-top: 17px;
     color: #FFFFFF;
@@ -192,16 +193,16 @@ h6{
     display: inline-block;
     color: #222222;
 }
-
-.block2{
-    width: 56px;
+.block2:hover{
+    width: 86px;
     height: 56px;
-    margin-left: 10px;
-    padding-top: 16px;
     border-radius: 12px;
     background-color:#F2F2F2;
     text-align: center;
+    margin-left: 10px;
+    padding-top: 16px;
 }
+
 
 .border{
     height: 56px;
@@ -224,6 +225,7 @@ h6{
     font-size: 16px;
     line-height: 21px;
     margin-right: 16px;
+    margin-top: 16px;
 }
 .mid-blocks{
     width:1080px;

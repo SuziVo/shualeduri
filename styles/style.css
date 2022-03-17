@@ -16,6 +16,7 @@ a{
     
 }
 .sidebar{
+
     width: 319px;
     height: 100%;
     background-color: #222222;
@@ -160,6 +161,7 @@ h5{
     border-radius: 28px;
     margin-left: 35px;
 }
+
 .box{
     width: 129px;
     height: 56px;
@@ -347,6 +349,8 @@ button{
     grid-template-columns: 142px 145px 102px 104px;
     grid-gap: 100px;
     margin-left: 180px;
+
+
 }
 .grid-title{
     
@@ -417,8 +421,76 @@ footer{
 }
 .footer-text{
     color: #222222;
+    width: auto;
     margin-top: 150px;
+    padding-right: 170px;
 }
 
-/* 
-animations start here */
+
+/* icon css starts here*/
+
+
+.profile-icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 28px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+.profile-wrapper{
+    width: 56px;
+    height: 56px;
+    border: 2px solid #E7E7E7;
+    border-radius: 28px;
+    margin-left: 20px;
+}
+.icon-grid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 40px;
+    margin: 100px 130px ;
+    padding-bottom: 100px;
+}
+.icon-grid-items{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    border-bottom: 2px solid #F2F2F2;
+    height: 21px;
+ 
+}
+.icon-first{
+    list-style: none;
+    color: #111111;
+    margin-right: 168px;
+    margin-top: -20px;
+    width: 64px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.icon-second{
+    list-style: none;
+    color: #111111;
+    color: #AFAFAF;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: -20px;
+
+}
+.icon-second-pink{
+    list-style: none;
+    color: #111111;
+    color:#FF2288;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: -20px;
+
+}
+.icon-grid-items:hover{
+    width: 1200px;
+    height: 72px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding-top: 40px;
+    padding-left: 30px;
+    
+}

@@ -9,6 +9,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    font-family: 'ALK Rounded Nusx Med';
+
 }
 a{
     color: white;
@@ -16,7 +18,6 @@ a{
     
 }
 .sidebar{
-
     width: 319px;
     height: 100%;
     background-color: #222222;
@@ -56,12 +57,13 @@ li{
 }
 .wrapper:hover{
     background-color: #FF2288;
-    width: 219px;
+    width: 170px;
     height: 60px;
     border-radius: 12px;  
     padding-left: 30px;
     padding-top: 10px;
     margin-left: -60px;
+    text-align:left;
 }
 
 .sidebar-icons{
@@ -192,8 +194,12 @@ button{
     font-size: 16px;
     line-height: 21px;
     margin-right: 50px;
+    margin-top: 15px;
     display: inline-block;
     color: #222222;
+    vertical-align: top;
+
+    
 }
 .block2:hover{
     width: 86px;
@@ -203,6 +209,7 @@ button{
     text-align: center;
     margin-left: 10px;
     padding-top: 16px;
+    
 }
 
 
@@ -213,6 +220,8 @@ button{
     border: 1px solid #D8D8D8;
     display: flex;
     justify-content: space-between;
+   
+
 }
 .filter{
     width: 24px;
@@ -255,6 +264,39 @@ button{
     color:#222222 ;
     text-align: center;
   
+}
+.icons-add{
+    position: relative;
+}
+.plus-wrapper{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 35px;
+    height: 34px;
+    width: 34px;
+    border-radius: 12px;
+    background-color:#FFFFFF;
+}
+.plus{
+    position: absolute;
+    padding: 5px;
+
+}
+.heart-wrapper{
+   
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 35px;
+    height: 34px;
+    width: 34px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.heart{
+    position: absolute;
+    padding: 5px;
+
 }
 .grey-border{
     height: 56px;
@@ -449,7 +491,7 @@ footer{
     grid-template-rows: auto;
     grid-row-gap: 40px;
     margin: 100px 130px ;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .icon-grid-items{
     display: grid;

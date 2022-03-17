@@ -77,5 +77,8 @@
     .footer-text{
         display: none;
     }
+    .icon-grid{
+        max-width: 100%;
+    }
 }
 

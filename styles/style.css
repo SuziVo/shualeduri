@@ -9,12 +9,13 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    font-family: 'ALK Rounded Nusx Med';
+   
 
 }
 a{
     color: white;
     text-decoration: none;
+   
     
 }
 .sidebar{
@@ -54,6 +55,7 @@ li{
     font-size: 16px;
     line-height: 21px;
     color: white;
+    font-family: 'ALK Rounded Nusx Med';
 }
 .wrapper:hover{
     background-color: #FF2288;
@@ -263,6 +265,7 @@ button{
     line-height: 24px;  
     color:#222222 ;
     text-align: center;
+    font-family: 'ALK Rounded Nusx Med';
   
 }
 .icons-add{

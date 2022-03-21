@@ -265,12 +265,13 @@ button{
     font-size: 18px;
     line-height: 24px;  
     color:#222222 ;
-    text-align: center;
+    text-align:left;
     font-family: 'ALK Rounded Nusx Med';
 }
 
-.plus-wrapper{
 
+.plus-wrapper{
+  
     position: absolute;
     margin-top: -180px;
     margin-left: 35px;

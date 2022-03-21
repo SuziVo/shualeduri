@@ -9,18 +9,15 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-   
-
 }
 a{
     color: white;
     text-decoration: none;
-   
-    
+  
 }
 .sidebar{
     width: 319px;
-    height: 100%;
+    height: 1080px;
     background-color: #222222;
 }
 .top-design{
@@ -57,15 +54,16 @@ li{
     color: white;
     font-family: 'ALK Rounded Nusx Med';
 }
+.wrapper{
+    padding-left: 30px;
+    margin-left: -60px;
+}
 .wrapper:hover{
     background-color: #FF2288;
-    width: 170px;
-    height: 60px;
-    border-radius: 12px;  
-    padding-left: 30px;
-    padding-top: 10px;
-    margin-left: -60px;
-    text-align:left;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    border-radius: 12px;
+    width: 150px;
+    
 }
 
 .sidebar-icons{
@@ -85,6 +83,10 @@ h2{
     margin-bottom: -80px;
     
 }
+.sidebar-bottom{
+    padding-left: 30px;
+    margin-left: -60px;
+}
 .sidebar-bottom-icon{  
     height: 44px;
     width: 44px;
@@ -100,7 +102,8 @@ h2{
     margin-left: -30px;
 }
 section{
-    width: 1601px;   
+    max-width: 1601px;   
+    width: 100%;
 }
 header{
     display: flex;
@@ -204,16 +207,14 @@ button{
     
 }
 .block2:hover{
-    width: 86px;
-    height: 56px;
-    border-radius: 12px;
     background-color:#F2F2F2;
+    width: 86px;
+    height: 36px;
+    border-radius: 12px;
     text-align: center;
-    margin-left: 10px;
-    padding-top: 16px;
-    
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  
 }
-
 
 .border{
     height: 56px;
@@ -266,12 +267,10 @@ button{
     color:#222222 ;
     text-align: center;
     font-family: 'ALK Rounded Nusx Med';
-  
 }
-.icons-add{
-    position: relative;
-}
+
 .plus-wrapper{
+
     position: absolute;
     margin-top: -180px;
     margin-left: 35px;
@@ -286,7 +285,15 @@ button{
 
 }
 .heart-wrapper{
-   
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 35px;
+    height: 34px;
+    width: 34px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+.heart-wrapper{
     position: absolute;
     margin-top: -140px;
     margin-left: 35px;
@@ -297,9 +304,14 @@ button{
 }
 
 .heart{
+    
     position: absolute;
     padding: 5px;
 
+}
+.heart{
+    position: absolute;
+    padding: 5px;
 }
 .grey-border{
     height: 56px;
@@ -366,6 +378,15 @@ button{
     margin-left: 100px;
     padding-top: 10px;
 }
+.country-indo{
+    width: 120px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #222222;
+    margin-left: 100px;
+    padding-top: 10px;
+}
 
 .designer-box{
     width: 132px;
@@ -418,6 +439,7 @@ button{
     font-size: 16px;
     line-height: 40px;
     color: #222222;
+    font-family: 'Arial GEO';
 }
 .grid-p2{
     margin-top: 121px;
@@ -425,6 +447,7 @@ button{
     width: 145px;
     height: 21px;
     color: #222222;
+    font-family: 'Arial GEO';
 }
 .grid-p4{
     padding-top: 36px;
@@ -433,6 +456,7 @@ button{
     font-size: 16px;
     line-height: 40px;
     color: #222222;
+    font-family: 'Arial GEO';
 }
 .grid-p5{
     padding-top: 36px;
@@ -441,6 +465,7 @@ button{
     font-size: 16px;
     line-height: 40px;
     color: #222222;
+    font-family: 'Arial GEO';
 }
 .grid-p6{
     margin-top: 41px;
@@ -448,6 +473,7 @@ button{
     width: 145px;
     height: 21px;
     color: #222222;
+    font-family: 'Arial GEO';
 }
 footer{
     display: flex;
@@ -531,9 +557,8 @@ footer{
 
 }
 .icon-grid-items:hover{
-    width: 1200px;
-    height: 72px;
     background-color: #F2F2F2;
+    transition: width 2s, background-color 2s, transform 2s;
     border-radius: 12px;
     padding-top: 40px;
     padding-left: 30px;

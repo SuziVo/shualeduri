@@ -102,7 +102,7 @@ h2{
     margin-left: -30px;
 }
 section{
-    max-width: 1601px;   
+    /* max-width: 1601px;    */
     width: 100%;
 }
 header{
